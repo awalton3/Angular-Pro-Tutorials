@@ -1,0 +1,21 @@
+<html ng-app="app">
+	<head>
+		<title>My Angular app</title>
+		<script src="js/angular.js"></script>
+		<style>
+			input { text-align: center; border: 1px solid #eee; background: #fff; border-radius: 3px; margin: 0 2px 0 0;}
+			button { border: 0; background: #eee; border-radius: 3px; margin: 0 2px 0 0; }
+		</style>
+	</head>
+	<body>
+
+		<div ng-controller="MainController as main"> <!-- create a scope specific to main, avoids pollution, should write as MainController as $ctrl and reference as var ctrl = this -->
+			<counter count="main.count"></counter> <!-- you have to call the component, used to pass data down -->
+		</div>
+
+		<script src="js/app.js"></script>
+		<!-- <script src="js/directives/counter.js"></script> -->
+		<script src="js/components/counter.js"></script>
+		<script src="js/controllers/MainController.js"></script>
+	</body>
+</html>
