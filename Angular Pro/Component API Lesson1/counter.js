@@ -21,8 +21,7 @@ template: `
 			<input type="text" ng-model="$ctrl.count">
 			<button type="button" ng-click="$ctrl.increment();">+</button>
 		</div>
-	`
-    
+	` 
 };
 
 angular 
