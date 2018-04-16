@@ -33,4 +33,10 @@ Stateful: contains a controller and template. Receives data, uses controller to 
 
 Stateful: communicates with services 
 
-routed components: communicate with services and input is normally data within the component. */
+routed components: communicate with services and input is normally data within the component. 
+
+
+use pattern matching instead of if statements using regular expressions --- regex
+
+
+*/

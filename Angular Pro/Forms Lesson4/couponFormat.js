@@ -30,4 +30,4 @@ function couponFormat () {
 
 angular 
     .module('app')
-    .directive('couponFormat',couponFormat)
+    .directive('couponFormat', couponFormat)
